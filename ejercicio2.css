@@ -1,0 +1,190 @@
+html, head, header, footer,  hgroup ,  nav ,  article,  section,  figure,  figcaption,  h1,  h2,  h3,  ul,  li,  body,  div,  p,  img, a
+{
+margin: 0;
+background: 0;
+font-size:  100%;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+
+body {
+    background: white url(imágenes/background-pattern.png) repeat;
+    width: 100%;
+    background-size: 5px;
+    background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    font-family: 'Manjari', sans-serif;
+}
+
+header .Menú {
+  width: 100%;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  background-color: #1F2F45;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  word-spacing: 4px;
+ }
+
+/*El color del enlace es azul mientras no se visite el enlace*/
+ a:link {
+   color: #24B9C4;
+   background-color: transparent;
+   text-decoration: underline;
+ }
+
+/*Cambia a color rosa cuando la pagina ha sido visitada*/
+ a:visited {
+  color: #B124C4;
+  background-color: transparent;
+}
+
+/*Espaciado entre cada enlace*/
+a {
+margin: 10px;
+}
+
+
+
+header .logo{
+  width: 100%;
+  background: #020D69 url(imágenes/header-background.png) repeat;
+  background-size: 10px;
+  border: 0.8px solid #020D69;
+  padding: 7px;
+  display: flex;
+  justify-content: inherit;
+}
+
+ul li {
+      display: inline;
+      list-style: none;
+      margin-left: auto;
+      margin-right: auto;
+      top: 0px;
+      height: 50px;
+    }
+
+.Submenú{
+  width: 100%;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  background-color: #1F2F45;
+  display: flex;
+  word-spacing: 4px;
+}
+
+
+ #foto{
+   width: 90%;
+   max-width: 1000px;
+   margin: 1.6em auto;
+   display: grid;
+   gap: 1.6em;
+      /* grid-template-columns: repeat(1, 1fr) 3%; */
+   grid-template-columns: repeat(1, 1fr);
+   border: 1px solid white;
+   background-color: white;
+   text-align: center;
+   place-content: center;
+   }
+
+
+.borde{
+  border-width: thin;
+  border-style: solid;
+  border-color: #0000ff;
+  background-repeat: no-repeat;
+  padding:5px;
+  border-image:url("imágenes/profile-96x96.jpg") 30 30;
+}
+
+.botones{
+  border: 1px solid #000000;
+  padding: 4px;
+  background-color: #1F2F45;
+}
+
+/*Propiedad de la imagen que representa al grafico*/
+article figure{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+[title] {
+      cursor: help;
+      padding-bottom: 3px;
+      border-bottom: 10px;
+      text-decoration: none;
+     }
+
+ #Datos{
+      width: 90%;
+      max-width: 1000px;
+      margin: 1.6em auto;
+      display: grid;
+      gap: 1.6em;
+         /* grid-template-columns: repeat(1, 1fr) 3%; */
+      grid-template-columns: repeat(1, 1fr);
+      border: 1px solid white;
+      background-color: white;
+     }
+
+    #Contact{
+      width: 90%;
+      max-width: 1000px;
+      margin: 1.6em auto;
+      display: grid;
+      gap: 1.6em;
+           /* grid-template-columns: repeat(1, 1fr) 3%; */
+      grid-template-columns: repeat(1, 1fr);
+      border: 1px solid white;
+      background-color: white;
+      }
+
+    #Sales{
+      width: 90%;
+      max-width: 1000px;
+      margin: 1.6em auto;
+      display: grid;
+      gap: 1.6em;
+            /* grid-template-columns: repeat(1, 1fr) 3%; */
+      grid-template-columns: repeat(1, 1fr);
+      border: 1px solid white;
+      background-color: white;
+      }
+
+      p{
+        font-style: normal;
+        font-size:´'Merriweather', Open-Sans, Manjari, Sans-serif;
+      }
+
+      em{
+      font-style: italic;
+      color: #818288;
+      }
+
+      h3.box1 {
+        width: 98%;
+        margin: auto;
+        color: white;
+        font-size:´'Open-Sans', Manjari, Sans-serif;
+        background: #020D69 url(imágenes/header-background.png) repeat;
+        background-size: 10px;
+        border: 1.6px solid #020D69;
+        padding: 7px;
+        display: flex;
+      }
+
+
+footer {
+  color: white;
+  background-color: #1F2F45;
+  margin: 0em 0em 0.5em 0em;
+}
